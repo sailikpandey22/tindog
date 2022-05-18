@@ -1,0 +1,154 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+#title {
+  background-color: #ec255a;
+}
+.title1 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #ffffff;
+}
+.container-fluid {
+  padding: 3% 15% 6%;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 1.125rem;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+.navbar {
+  padding: 0 0 4.5;
+}
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 20%;
+  transform: rotate(25deg);
+  right: 23.5%;
+  position: absolute;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #ffffff;
+  position: relative;
+}
+.feature-box {
+  padding: 5%;
+  text-align: center;
+}
+
+p {
+  color: #8f8f8f;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.fa-5x {
+  color: #ef8172;
+  padding-bottom: 10%;
+  transition: transform 0.3s;
+}
+
+.fa-5x:hover {
+  color: #ec255a;
+  transform: scale(1.13);
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #ffffff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 1.25rem;
+  transition: transform 0.3s;
+}
+
+.testimonial-image:hover {
+  transform: scale(1.13);
+}
+em {
+  font-family: "Ubuntu", sans-serif;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 1.25rem 1.25rem 3.125rem;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#pricing {
+  text-align: center;
+  padding: 6.25rem;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+#cta {
+  background-color: #ec255a;
+  text-align: center;
+  color: #ffffff;
+}
+
+.cta-description {
+  padding-top: 5%;
+  margin: 0% 20% 1%;
+}
+
+#footer {
+  text-align: center;
+  margin: 4%;
+}
+.socialmedia {
+  margin: 1%;
+}
